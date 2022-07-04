@@ -28,7 +28,7 @@ def is_name():
         return poke_name
 #gets the title of the paste 
 def make_title(poke_name):
-    title=(poke_api_call.clean_name(poke_name[1]).capitalize()+"'s abilities")
+    title=(poke_api_call.clean_name(poke_name).capitalize()+"'s abilities")
     return title
 #main class
 def main():
